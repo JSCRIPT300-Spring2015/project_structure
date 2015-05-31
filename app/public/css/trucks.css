@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0 10% 3em;
+	padding: 0;
+}
+
+form {
+	background: #e7e7e7;
+	padding: 10px;
+}
+
+fieldset {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form_input {
+	margin-bottom: 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+input[type=text],
+textarea {
+	font-size: 14px;
+	padding: 8px;
+	border: none;
+}
+
+input[type=submit],
+button[type=button] {
+	display: inline-block;
+	color: #666;
+	font-size: 14px;
+	padding: 8px 10px;
+	margin: 10px 0 0 5px;
+	background: aquamarine;
+	border: none;
+	border-radius: 3px;
+}
+
+input[name=website],
+input[name=Facebook],
+input[name=Twitter] {
+	display: inline-block;
+	width: 400px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin: 6px 0;
+}
+
+.delete_link {
+	position: relative;
+	display: inline-block;
+	background: pink;
+	padding: 2px 5px;
+	margin-right: 1rem;
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+.delete_link:hover {
+	background: red;
+	font-weight: bold;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+ul.trucks-list {
+	margin: 0;
+	padding: 0;
+}
+
+ul.trucks-list li {
+	margin: 0 0 .5em;
+	padding: 0;
+}
+
+.columns-3 {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+}
