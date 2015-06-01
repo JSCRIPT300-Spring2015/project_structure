@@ -1,1 +1,0 @@
-Place your Backbone application's router modules in this directory.
