@@ -19,9 +19,10 @@
     "url": "https://github.com/PatriceBriggs/project_structure/issues"
   },
   "homepage": "https://github.com/PatriceBriggs/project_structure#readme",
-    "devDependencies": {
+  "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha": "^0.4.12"
   },
   "dependencies": {

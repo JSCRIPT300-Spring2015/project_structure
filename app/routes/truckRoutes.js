@@ -36,7 +36,7 @@ router.route('/:id')
         
         Truck.findById(request.params.id, function (error, truck) {
             
-        })
+        });
         next();
     })
     .get(function (request, response) {         
@@ -64,6 +64,7 @@ router.route('/:id')
                         }
                     });
                 } 
+            }
         });
     })
 
