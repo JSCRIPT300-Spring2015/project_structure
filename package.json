@@ -1,0 +1,33 @@
+{
+  "name": "project_structure",
+  "version": "1.0.0",
+  "description": "directory layout for the course project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatriceBriggs/project_structure"
+  },
+  "author": "Patrice Briggs <patrice.briggs@comcast.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatriceBriggs/project_structure/issues"
+  },
+  "homepage": "https://github.com/PatriceBriggs/project_structure#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha": "^0.4.12"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "mongoose": "^4.0.4"
+  }
+}
