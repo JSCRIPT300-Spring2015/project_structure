@@ -1,3 +1,5 @@
+Link to my project repository: https://github.com/gamboagirl/My_JSCRIPT300_Spring2015_Project 
+
 # project_structure
 directory layout for the course project
 
